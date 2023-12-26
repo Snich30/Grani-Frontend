@@ -1,0 +1,77 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Reg";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+.pageSection__mainImg {
+  height: 393px;
+  background-image: url(../img/photo-page2/mainPhoto.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 43px;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainSection__title {
+  margin: 0px;
+  font-family: "Inter-Bol";
+  margin-bottom: 44px;
+  font-size: 48px;
+  color: #000230;
+}
+.mainSection__textDate {
+  font-size: 36px;
+  font-family: "Inter-Bol";
+  color: #000230;
+  margin-bottom: 126px;
+}
+.mainSection__btnСost {
+  border: none;
+  width: 589px;
+  height: 136px;
+  border-radius: 30px;
+  background: #6FD2D2;
+  color: white;
+  line-height: 1.5;
+  font-size: 40px;
+  font-family: "Inter-Bol";
+  margin-bottom: 26px;
+}
+.mainSection__titleVenue {
+  font-size: 40px;
+  font-family: "Inter-Bol";
+  color: #000230;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+.mainSection__titlePhoto {
+  margin: 0;
+  font-size: 40px;
+  color: #000230;
+  font-family: "Inter-Bol";
+  margin-bottom: 100px;
+}
+.mainSection__photoFoot {
+  display: flex;
+  flex-direction: row;
+}
+
+.photoFoot__photo {
+  margin-right: 70px;
+}
+.photoFoot__photo:last-child {
+  margin: 0;
+}/*# sourceMappingURL=page2.module.css.map */

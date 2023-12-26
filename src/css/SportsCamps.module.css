@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Reg";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+.pageSection__mainImg {
+  height: 400px;
+  background-image: url(../img/photo-page2/mainPhoto.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 43px;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainSection__title {
+  margin: 0px;
+  font-family: "Inter-Bol";
+  margin-bottom: 44px;
+  font-size: 48px;
+  color: #000230;
+}
+.mainSection__textDate {
+  font-size: 36px;
+  font-family: "Inter-Bol";
+  color: #000230;
+  margin-bottom: 126px;
+}
+.mainSection__buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.Photo__firstBoxImg {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.Photo__Photo2 {
+  width: 550px;
+}
+.Photo__img {
+  margin-right: 30px;
+}
+.Photo__img:last-child {
+  margin-right: 0;
+}
+.Photo__img1 {
+  margin-right: 20px;
+}
+.Photo__imgs {
+  display: flex;
+  flex-direction: column;
+}
+.Photo__secondBoxImg {
+  display: flex;
+  margin-bottom: 250px;
+}
+.Photo__firstPhoto {
+  width: 800px;
+}
+.Photo__BoxPhoto {
+  margin-bottom: 20px;
+  width: 300px;
+}/*# sourceMappingURL=SportsCamps.module.css.map */

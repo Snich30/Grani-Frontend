@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+.JumpBottonStepOne__buttonStyleDiv {
+  margin-bottom: 50px;
+}
+
+.buttonStyleDiv__b {
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 365px;
+  height: 51px;
+  background-color: rgba(107, 177, 182, 0.5490196078);
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 10px;
+  font-family: "Inter-Bol";
+}
+.buttonStyleDiv__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 14px;
+}/*# sourceMappingURL=jumpButtonStep1.module.css.map */

@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter-Reg";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+
+.sectionCardsArea {
+  padding: 20px;
+  &__cardBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  &__cardsItem {
+    width: 334px;
+    height: 430px;
+    border-radius: 20px;
+    border: 1px solid rgb(229, 229, 229);
+    position: relative;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+.cardsItem {
+  &__infoSection {
+    padding: 0 20px;
+  }
+  &__iconLove {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+    top: 190px;
+    left: 270px;
+  }
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: "Inter-Bol";
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  &__tegsSection {
+    display: flex;
+  }
+
+  &__tegs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    background-color: #3f9999;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    color: white;
+    font-family: "Inter-Bol";
+    &:last-child {
+      margin: 0;
+    }
+    margin-bottom: 8px;
+  }
+  &__moneyReview {
+    display: flex;
+  }
+  &__star {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  &__moreDetailed {
+    color: #be96d1;
+  }
+}
+.iconLove {
+  &__icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.tegs {
+  &__text {
+    margin: 0;
+  }
+}
+
+.moneyReview {
+  &__textMoney {
+    font-family: "Inter-Reg";
+    font-size: 14px;
+    color: #a4a4a4;
+    margin: 0;
+    margin-right: 80px;
+  }
+  &__Rewiew {
+    display: flex;
+    flex-direction: column;
+  }
+  &__textReview {
+    font-family: "Inter-Reg";
+    font-size: 14px;
+    color: #a4a4a4;
+    margin: 0;
+  }
+}
+
+.star {
+  &__iconMetro {
+    margin-right: 5px;
+  }
+  &__text {
+    font-family: "Inter-Reg";
+    font-size: 12px;
+    color: #a4a4a4;
+    margin: 0;
+    margin-right: 120px;
+  }
+}

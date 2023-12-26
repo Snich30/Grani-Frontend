@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+.btnPrint {
+  background: #b7d1d3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 198px;
+  height: 75px;
+  color: white;
+  font-size: 24px;
+  font-family: "Inter-Bol";
+}/*# sourceMappingURL=btnPrint.module.css.map */

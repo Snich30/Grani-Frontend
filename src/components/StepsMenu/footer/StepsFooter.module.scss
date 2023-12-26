@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:"Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+
+$color-blue: #07014c;
+
+.footer {
+  &__monual {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  &__img {
+    margin-right: 10px;
+  }
+  &__text {
+    font-size: 18px;
+    color: $color-blue;
+    font-family:"Inter-Bol" ;
+  }
+  &__hr {
+    margin-bottom: 20px;
+    border: none;
+    border: 1px solid grey;
+  }
+  &__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  &__endText {
+    font-size: 18px;
+    color: $color-blue;
+    text-align: center;
+    font-family:"Inter-Bol" ;
+  }
+}
+
+.icons {
+  &__item {
+    margin-right: 25px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

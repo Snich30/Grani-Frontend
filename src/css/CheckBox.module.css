@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter-Reg";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+.checkBox__checkBoxComponent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.checkBox__checkBoxDescription {
+  margin-left: 25px;
+}
+
+.checkBoxDescription__p {
+  color: #000;
+  font-size: 12px;
+  font-family: "Inter-Reg";
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.headerBox__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter-Bol";
+  color: #000;
+  font-size: 30px;
+}
+.headerBox__title2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter-Bol";
+  color: #000;
+  font-size: 24px;
+}
+.headerBox__title3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter-Bol";
+  color: #000;
+  font-size: 18px;
+}
+.headerBox__inputCheck {
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.checkBoxComponent__checkBoxText {
+  color: #000;
+  font-size: 22px;
+  font-family: "Inter-Reg";
+}
+.checkBoxComponent__checkBoxText2 {
+  color: #000;
+  font-size: 18px;
+  font-family: "Inter-Reg";
+  margin-bottom: 15px;
+}
+.checkBoxComponent__checkBoxText3 {
+  color: #000;
+  font-size: 14px;
+  font-family: "Inter-Reg";
+  margin-bottom: 15px;
+}/*# sourceMappingURL=CheckBox.module.css.map */

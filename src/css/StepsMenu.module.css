@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+.mainMenu {
+  width: 460px;
+  background-color: rgba(107, 177, 182, 0.55);
+  padding: 20px;
+  min-height: 1135px;
+  position: relative;
+}
+.mainMenu__mainIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainMenu__title {
+  font-size: 24px;
+  color: #07014c;
+  font-family: "Inter-Bol";
+}
+.mainMenu__mainTitle {
+  font-family: "Inter-Bol";
+  font-size: 26px;
+}
+
+.whiteBackground {
+  background: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+}
+
+.menuSteps__steps {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.menuSteps__steps:last-child {
+  margin: 0;
+}
+.menuSteps__text {
+  text-decoration: none;
+  font-size: 18px;
+  color: #07014c;
+  position: relative;
+  font-family: "Inter-Bol";
+}
+.menuSteps__iconStep {
+  margin-right: 10px;
+}
+.menuSteps__btnExit {
+  border: none;
+  width: 102.429px;
+  height: 37px;
+  background-color: #07014c;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 550px;
+  font-family: "Inter-Bol";
+}
+
+.btnExit__hr {
+  width: 50px;
+  position: absolute;
+  bottom: -1px;
+  margin-left: 20px;
+  border: none;
+  border-top: 2px solid;
+}
+
+.text__underline {
+  position: relative;
+  text-decoration: none;
+}
+.text__underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: #07014c;
+}
+
+.rigthWrapper {
+  padding-right: 20px;
+  position: absolute;
+  top: 180px;
+  right: 10px;
+  z-index: 0;
+}/*# sourceMappingURL=StepsMenu.module.css.map */

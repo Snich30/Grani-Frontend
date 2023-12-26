@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+.sectionApplication {
+  width: 951.04px;
+  height: 218.72px;
+}
+.sectionApplication__HeaderSection {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.sectionApplication__applicationData {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+.sectionApplication__buttonSectionApplication {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+
+.HeaderSection__titleAppli {
+  color: #14164A;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Inter-Bol";
+}
+.HeaderSection__Edit {
+  display: flex;
+  align-items: center;
+}
+
+.Edit__editIco {
+  width: 29px;
+  height: 22px;
+}
+.Edit__TextEdit {
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Inter-Bol";
+}
+
+.applicationData__photo {
+  background-color: #D9D9D9;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+}
+
+.user__input {
+  border: none;
+  width: 145px;
+  height: 37px;
+  border-radius: 10px;
+  background: #D9D9D9;
+}
+.user__lab {
+  display: flex;
+  justify-content: flex-start;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Inter-Bol";
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.buttonSectionApplication__but {
+  border: none;
+  margin: 0 10px;
+  border-radius: 10px;
+  background: rgba(108, 176, 176, 0.91);
+  width: 233px;
+  height: 39px;
+  color: #FFF;
+  font-size: 16px;
+  font-family: "Inter-Bol";
+}/*# sourceMappingURL=application.module.css.map */

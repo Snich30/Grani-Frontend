@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+.FaqPage3__buttonContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.FaqPage3__titleFaq {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonContainer__divB {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 30px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), #bafcfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonContainer__divB:last-child {
+  margin: 0px;
+}
+
+.divB__pp {
+  display: inline;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Inter-Bol";
+}
+.divB__tit {
+  color: #000230;
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter-Bol";
+}
+.divB__butt {
+  width: 271px;
+  height: 77px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background: #4aa1a1;
+}
+.divB__txt {
+  color: #000230;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Inter-Bol";
+}
+
+.titleFaq__t {
+  color: #000230;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Inter-Bol";
+}/*# sourceMappingURL=faqPage3.module.css.map */

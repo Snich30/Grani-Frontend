@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter-Reg";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+.sectionAll {
+  display: flex;
+}
+.sectionAll__Settelement {
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.sectionAll__title {
+  color: #000230;
+  font-family: "Inter-Bol";
+  font-size: 45px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.sectionAll__btns {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.sectionAll__titleAppli {
+  color: #14164a;
+  font-size: 32px;
+  font-family: "Inter-Bol";
+}
+.sectionAll__Edit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+.sectionAll__cardsBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionAll__cardsItem {
+  background-color: #80b7bc;
+  width: 280px;
+  height: 310px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.sectionAll__fullCard {
+  max-width: 280px;
+}
+.sectionAll__fullCardAdd {
+  max-width: 120px;
+}
+.sectionAll__plus {
+  width: 120px;
+  height: 125px;
+  background-color: rgba(212, 212, 212, 0.7215686275);
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.sectionAll__cardsItemPeopls {
+  background-color: rgba(212, 212, 212, 0.7215686275);
+  width: 280px;
+  height: 310px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.sectionAll__cardsBox {
+  margin-bottom: 100px;
+}
+
+.Edit__editIco {
+  width: 33px;
+}
+.Edit__TextEdit {
+  color: #000230;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Inter-Bol";
+}
+
+.cardsItem__girls {
+  background-color: #f3bdda;
+}
+.cardsItem__FIO {
+  background-color: white;
+  width: 220px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.cardsItem__text {
+  margin: 0;
+  font-family: "Inter-Bol";
+  font-size: 14px;
+}
+
+.fullCard__number {
+  text-align: center;
+  font-family: "Inter-Bol";
+  margin: 0;
+}
+
+.fullCardAdd__addCard {
+  font-family: "Inter-Bol";
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+.plus__vertical {
+  width: 3px;
+  height: 60px;
+  background: black;
+  position: absolute;
+  top: 35px;
+  left: 50%;
+}
+.plus__horizontal {
+  width: 60px;
+  height: 3px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+}
+
+.cardsItemPeopls__title {
+  font-family: "Inter-Bol";
+  color: #000230;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.cardsItemPeopls__FioPeopls {
+  background-color: white;
+  width: 220px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.cardsItemPeopls__text {
+  margin: 0;
+  font-family: "Inter-Bol";
+  font-size: 14px;
+}/*# sourceMappingURL=Settelement.module.css.map */

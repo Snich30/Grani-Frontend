@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter-Reg";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+.mainSection {
+  display: flex;
+}
+.mainSection__Checklist {
+  margin: 0 auto;
+  padding-top: 35px;
+}
+.mainSection__title {
+  font-size: 54px;
+  color: #0a1641;
+  font-family: "Inter-Bol";
+  margin: 0;
+  margin-bottom: 30px;
+}
+.mainSection__btnPhoto {
+  display: flex;
+  font-family: "Inter-Bol";
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.mainSection__title2 {
+  font-size: 34px;
+  color: #0a1641;
+  font-family: "Inter-Reg";
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.btnPhoto__Edit {
+  display: flex;
+  align-items: center;
+}
+.btnPhoto__editIco {
+  width: 33px;
+}
+.btnPhoto__TextEdit {
+  color: #0a1641;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Inter-Bol";
+}
+
+.templates {
+  display: flex;
+  flex-direction: row;
+}
+.templates__img {
+  margin-right: 30px;
+}
+.templates__img:last-child {
+  margin: 0;
+}/*# sourceMappingURL=CompletionCheckOut.module.css.map */

@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter-Reg";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+.mainSection {
+  display: flex;
+}
+.mainSection__RightWrapper {
+  padding: 50px 40px 0 40px;
+  margin: 0 auto;
+}
+
+.venueReservationPage3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.MainPart__titlePart {
+  display: flex;
+  justify-content: center;
+}
+.MainPart__buttonsUnderTheTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsUnderTheTitle__rightPart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.LeftPart__Edit {
+  display: flex;
+  align-items: center;
+}
+
+.rightPart__buttonRight {
+  margin-right: 15px;
+}
+
+.review__buttonReview {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #c7c7c7;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter-Bol";
+}
+
+.Edit {
+  margin-bottom: 10px;
+}
+.Edit__editIco {
+  width: 45px;
+  height: 38px;
+}
+.Edit__TextEdit {
+  color: #000000;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Inter-Bol";
+}
+
+.titlePart__title {
+  color: #091866;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Inter-Bol";
+}
+
+.rightPart__buttonRight {
+  padding: 18px 20px;
+  border-radius: 20px;
+  background: #4aa1a1;
+  font-family: "Inter-Bol";
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}/*# sourceMappingURL=Checklist.module.css.map */

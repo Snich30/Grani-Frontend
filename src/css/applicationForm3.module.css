@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+.applicationForm3__mainDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 63px;
+}
+.applicationForm3__divButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+
+.mainDiv__compForm {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titleThisDiv__titl {
+  color: #14164a;
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter-Bol";
+}
+
+.user__input {
+  border: 0;
+  width: 145px;
+  height: 37px;
+  border-radius: 10px;
+  background: #d9d9d9;
+}
+.user__lab {
+  display: flex;
+  justify-content: flex-start;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Inter-Bol";
+}
+
+.divButton__b {
+  margin: 0 10px;
+  border-radius: 10px;
+  background: rgba(108, 176, 176, 0.91);
+  width: 233px;
+  height: 39px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "Inter-Bol";
+}/*# sourceMappingURL=applicationForm3.module.css.map */

@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.MainWindow {
+  display: flex;
+}
+.MainWindow__rigthWrapper {
+  margin: 0 auto;
+  padding-top: 60px;
+}/*# sourceMappingURL=Home.module.css.map */

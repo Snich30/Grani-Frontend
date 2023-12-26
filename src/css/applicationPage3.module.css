@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+body {
+  margin: 0;
+}
+
+.applicationPage3__mainImg {
+  height: 393px;
+  background-image: url(../img/photo-page2/mainPhoto.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.applicationPage3__butBotton {
+  display: flex;
+  justify-content: center;
+}
+
+.TitlePage3__h1 {
+  color: #14164a;
+  font-size: 48px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter-Bol";
+}
+.TitlePage3__h3 {
+  color: #14164a;
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter-Bol";
+}
+
+.butBotton__buB {
+  border-radius: 30px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), #6fd2d2;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  width: 400px;
+  height: 100px;
+  margin-bottom: 85px;
+  font-family: "Inter-Bol";
+}/*# sourceMappingURL=applicationPage3.module.css.map */

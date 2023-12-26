@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"Inter-Bol" ;
+    src: url(../fonts/Inter-Bold.ttf);
+  }
+
+.JumpBottonStepOne{
+    &__buttonStyleDiv{
+        margin-bottom: 50px;
+    }
+}
+.buttonStyleDiv{
+    &__b{
+        border: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 365px;
+        height: 51px; 
+        background-color: #6BB1B68C;
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 10px;
+        font-family:"Inter-Bol" ;
+        
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 14px; 
+    }
+}

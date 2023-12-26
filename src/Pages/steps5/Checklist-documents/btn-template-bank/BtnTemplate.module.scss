@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"Inter-Bol" ;
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+.btnTemplate{
+    background: #6BB0B6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 75px;
+    color: white;
+    font-size: 24px;
+    font-family:"Inter-Bol";
+    margin-bottom: 20px;
+}

@@ -1,0 +1,37 @@
+.hiddenMenu {
+  position: relative;
+}
+
+.menuIcon {
+  cursor: pointer;
+}
+.menuIcon .bar {
+  width: 30px;
+  height: 4px;
+  margin: 6px 0;
+  background-color: #333;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.menuIcon.active .bar:first-child {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.menuIcon.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.menuIcon.active .bar:last-child {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.menuContent {
+  position: fixed;
+  top: 0;
+  right: -50%;
+  width: 50vw;
+  height: 100vh;
+  background-color: #fff;
+  transition: right 0.3s;
+  overflow-y: auto;
+}
+.menuContent.visible {
+  right: 0;
+}/*# sourceMappingURL=MenuBurg.module.css.map */

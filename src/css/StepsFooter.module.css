@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+.footer__monual {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.footer__img {
+  margin-right: 10px;
+}
+.footer__text {
+  font-size: 18px;
+  color: #07014c;
+  font-family: "Inter-Bol";
+}
+.footer__hr {
+  margin-bottom: 20px;
+  border: none;
+  border: 1px solid grey;
+}
+.footer__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.footer__endText {
+  font-size: 18px;
+  color: #07014c;
+  text-align: center;
+  font-family: "Inter-Bol";
+}
+
+.icons__item {
+  margin-right: 25px;
+}
+.icons__item:last-child {
+  margin: 0;
+}/*# sourceMappingURL=StepsFooter.module.css.map */

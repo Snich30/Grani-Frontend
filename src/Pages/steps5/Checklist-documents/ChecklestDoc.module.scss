@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter-Reg";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+
+.mainSection {
+  display: flex;
+  &__Checklist{
+      margin: 0 auto;
+      padding-top: 35px;
+  }
+  &__title {
+    font-size: 54px;
+    color: #0a1641;
+    font-family: "Inter-Bol";
+  }
+  &__btn {
+    display: flex;
+    font-family: "Inter-Bol";
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 40px;
+  }
+  &__title2{
+    font-size: 30px;
+    color: black;
+    font-family: "Inter-Bol";
+  }
+  &__inputBox{
+    max-width: 856px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+}
+.btn{
+    &__Edit{
+        display: flex;
+        align-items: center;
+    }
+    &__editIco {
+        width: 33px;
+      }
+    &__TextEdit {
+        color: #000230;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: "Inter-Bol";
+      }
+}
+.inputBox{
+    margin-bottom: 30px;
+    padding: 20px 40px 20px 10px;
+    &__item{
+        display: flex;
+        align-items:flex-start;
+    }
+    
+    
+}
+.txt{
+    &__title{
+        margin: 0;
+        font-family: "Inter-Bol";
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    &__text{
+        font-family: "Inter-Reg";
+        margin: 0;
+        font-size: 16px;
+        font-style: italic;
+    }
+}
+input{
+    margin-top: 5px;
+}

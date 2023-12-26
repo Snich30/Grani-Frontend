@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter-Reg";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+.sectionMain {
+  display: flex;
+}
+.sectionMain__Template {
+  margin: 0 auto;
+}
+
+.Template__title {
+  font-family: "Inter-Bol";
+  font-size: 54px;
+  color: #0a1641;
+}
+
+.tableBox {
+  margin-bottom: 20px;
+}
+.tableBox__title {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+}
+.tableBox__title1 {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-align: center;
+}
+.tableBox__subtitle {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.tableBox__tableContainer {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.tableBox__tr {
+  border: 1px solid black;
+}
+.tableBox__th {
+  border: 1px solid black;
+  height: 60px;
+}
+.tableBox__tr1 {
+  border: 1px solid black;
+}
+.tableBox__th1 {
+  border: 1px solid black;
+  height: 80px;
+  font-weight: 500;
+}
+.tableBox__td1 {
+  height: 80px;
+  text-align: start;
+}
+.tableBox__text {
+  margin-right: 215px;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.editingDowland {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.editingDowland__img {
+  width: 71px;
+  height: 65px;
+}
+.editingDowland__editing {
+  font-family: "Inter-Reg";
+  font-size: 54px;
+  color: #0a1641;
+  text-decoration: none;
+  margin: 0;
+  margin-right: 60px;
+}
+.editingDowland__download {
+  font-family: "Inter-Reg";
+  font-size: 28px;
+  color: #0a1641;
+  text-decoration: none;
+  margin: 0;
+}/*# sourceMappingURL=TemplateBlank.module.css.map */
